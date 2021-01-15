@@ -24,7 +24,7 @@ export class Movie extends Component {
             />
           </figure>
         </div>
-        <div className="card-content">
+        <div className="card">
           <div className="media">
             <div className="media-content">
               <p className="title is-4">{title}</p>
