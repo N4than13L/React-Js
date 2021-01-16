@@ -1,10 +1,8 @@
 import React from 'react';
 
-import { Component } from "react";
-
 export const Interesar = ({children}) => (
   <p className='title' style={{ 
-    background: 'grey',
+    background: 'black',
     height: 50,
     justifyContent:'center',
     padding:5,
@@ -24,9 +22,10 @@ export const Title = ({ children }) => (
   render(){
       return(
       
-          <footer className='footer'style={{background: 'grey'}} >
+          <footer className='footer' style={{background: 'black'}}>
             <div className='content has-text-centered'>
-              <p>Todos los derechos reservados</p>
+              <p style={{color: 'white'}}><strong style={{color: 'white'}}>Autor:</strong> José Nathhaniel Bonilla</p>
+              <p style={{color: 'white'}}>Todos los derechos reservados. 2021</p>
             </div>   
           </footer>
       

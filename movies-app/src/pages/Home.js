@@ -31,7 +31,7 @@ export class Home extends Component {
           ? this._renderResults()
           : <small>Use the form to search a movie</small>
         }
-        <Interesar>Vista Rapida.</Interesar>
+        <Interesar>Te puede Interesar.</Interesar>
         <Pelis_beta/>
         <Pie/>
       </div>
