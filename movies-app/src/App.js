@@ -5,6 +5,8 @@ import { Home } from './pages/Home'
 import { Detail } from './pages/Detail'
 import { NotFound } from './pages/NotFound'
 
+//comemtando.
+
 import './App.css';
 import 'bulma/css/bulma.css'
 
