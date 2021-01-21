@@ -59,7 +59,7 @@ class Video extends Component {
             <div style={{alignItems: 'center', margin: 10}}>
                 <ReactPlayer
                     controls
-                    url={require('../Video/Comercial.mp4')}
+                    url='https://photos.google.com/album/AF1QipMMadZar04eH9qCAYb5GWur8LfNTOPRv799DBcs/photo/AF1QipO6O0ZCNkx3W_rrBWeMbgYMmtQzwJUFGpQryphO'
                     width='100%'
                     playing
                 />

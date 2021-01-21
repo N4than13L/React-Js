@@ -1,5 +1,10 @@
+body{
+  background-color:  rgb(187, 185, 185);
+}
+
 .App {
   text-align: center;
+  background-color:  rgb(187, 185, 185);
 }
 
 .App-logo {
@@ -57,7 +62,7 @@ img{
   align-items: center;
   padding: 50px;
   margin: 0px auto;
-  background-color:  rgb(196, 63, 63);
+  background-color:  rgb(185, 185, 187);
 }
 
 .cuerpo{
