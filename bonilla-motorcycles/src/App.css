@@ -50,12 +50,6 @@ body{
 
 }
 
-img{
-  width: 40%;
-  position: center;
-  height: 500px;
-  opacity: 80%;
-}
 
 .contenido{
   width: 100%;
@@ -69,4 +63,10 @@ img{
  display: flex;
  align-items: center;
   top: bottom;
+}
+.Logo img{
+  width: 100%;
+  position: center;
+  height: 750px;
+  
 }

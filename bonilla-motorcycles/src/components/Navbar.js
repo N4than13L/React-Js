@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export class Navbar extends Component {
     render() {
       return(
-        <nav className="navbar is-info" >
+        <nav className="navbar is-info" style={{position:'fixed', width:'100%'}}>
           <div className="navbar-brand">
             <label className="title">Bonila Motorcycles</label>
           </div>
