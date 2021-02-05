@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Social } from './PanelSocial'
+
 export class Pie extends Component {
     render(){
         return(

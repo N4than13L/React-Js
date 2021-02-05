@@ -7,7 +7,7 @@ export class Navbar extends Component {
       return(
         <nav className="navbar is-info" style={{position:'fixed', width:'100%'}}>
           <div className="navbar-brand">
-            <label className="title">Bonila Motorcycles</label>
+            <label className="title" style={{margin:5}}>Bonila Motorcycles</label>
           </div>
   
           <div className="navbar-end" >
