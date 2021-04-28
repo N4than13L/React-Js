@@ -5,6 +5,7 @@ import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
 import Info from '../components/Info';
 import Experience from '../components/Exprience';
+import Footer from '../components/Footer';
 
 class Home extends Component{
     render(){
@@ -14,6 +15,7 @@ class Home extends Component{
                 <Hero/>
                 <Info/>
                 <Experience/>
+                <Footer/>
             </div>
         )
     }

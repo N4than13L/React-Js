@@ -7,13 +7,16 @@ class Experience extends Component {
                 <h1 className="title">
                     Lenguajes y tecnologias.
                 </h1>
+                
                 <p>JavaScript</p>
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>Python</p>
                 <p>C#</p>
                 <p>MySQL</p>
+
                 <br/>
+
                 <h1 className="title">Diseño</h1>
                 <p>Photoshop</p>
                 <p>blender</p>

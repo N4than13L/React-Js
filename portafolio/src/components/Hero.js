@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import Beach2 from '../Img/Beach2.jpg'
+import '../App.css'
 
 class Hero extends Component {
     render(){
         return(
             <section className="hero is-large is-info">
-                <div className="hero-body">
-                    <h2>José Nathaniel Bonilla</h2>
-                    <p className="title">Portafolio</p>  
-                </div>
+                <p className="title">Bienvenido</p>
+                <img src={Beach2} className="imgs"/>
             </section>   
         )
     }
