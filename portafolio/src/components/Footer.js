@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             <footer className="footer">
                 <div style={{padding:2, margin:2}}>
-                  <a href="#" target="Blank">Bonillajosenathaniel<FiInstagram style={{width:35, height:30}}/></a>
+                  <a href="#" target="Blank">@bonillajosenathaniel<FiInstagram style={{width:35, height:30}}/></a>
                   <br/>
                   <a href="#" target="Blank">Bonilla ArtWorks<FiYoutube style={{width:35, height:30}}/></a>  
                 </div>
