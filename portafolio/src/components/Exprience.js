@@ -5,22 +5,34 @@ class Experience extends Component {
         return (
             <div className="box">
                 <h1 className="title">
-                    Lenguajes y tecnologias.
+                    Conocimentos Tecnicos en informatica
                 </h1>
-                
-                <p>JavaScript</p>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>Python</p>
-                <p>C#</p>
-                <p>MySQL</p>
+                <p>Manejo de programas de Ofimatica</p>
+                <progress className="progress is-dark" value="70" max="100">40</progress>
 
+                <p>JavaScript</p>
+                <progress class="progress is-warning" value="45" max="100">40%</progress>
+
+                <p>HTML</p>
+                <progress class="progress is-danger" value="55" max="100">40%</progress>
+
+                <p>CSS</p>
+                <progress class="progress is-info" value="25" max="100">40%</progress>
+                
+                <p>Python</p>
+                <progress class="progress is-success" value="45" max="100">40%</progress>
+
+                <p>C#</p>
+                <progress class="progress is-link" value="50" max="100">40%</progress>
+
+                <p>MySQL</p>
+                <progress class="progress is-light" value="45" max="100">40%</progress>
                 <br/>
 
-                <h1 className="title">Diseño</h1>
-                <p>Photoshop</p>
-                <p>blender</p>
-                <p>Adobe Fresco</p>
+                <h1 className="title">Conocimentos en Arte diginal</h1>
+                <p>Mattepainting y photoretoque</p>
+                <p>render en 3d</p>
+                <p>Dibujo tradicional/digital</p>
             </div>
         );
     }
