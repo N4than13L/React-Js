@@ -12,14 +12,20 @@ import Software from '../components/Software';
 class Home extends Component{
     render(){
         return(
-            <div className="">
+            <div style={{margin: '0%',padding: '0%', width: '100%'}}>
                 <NavBar/>
-                <Hero/>
-                <Info/>
-                <Experience/>
-                <Software/>
-                <Likes/>
+                <div style={{width:'100%'}}>
+                    <Hero/>
+                </div>
+                
+                <div style={{margin: '2%',padding: '2%', width: '95%'}}>
+                    <Info/>
+                    <Experience/>
+                    <Software/>
+                    <Likes/>
+                </div>
                 <Footer/>
+                
             </div>
         )
     }

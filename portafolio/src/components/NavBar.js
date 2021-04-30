@@ -16,9 +16,13 @@ class NavBar extends Component {
                    <FiHome style={{width: 45, height:50}}/>
                 </Link>
 
-                <Link to="/" role="button" className="navbar-burger is-title" aria-label="menu" aria-expanded="false" data-target="mainNavbar" onClick={toggleBurgerMenu}>
+                <button role="button"
+                 style={{background: 'transparent'}} 
+                 className="navbar-burger is-title" 
+                 aria-label="menu" aria-expanded="false" 
+                 data-target="mainNavbar" onClick={toggleBurgerMenu}>
                     <FiMenu style={{width:45, height: 50}} />
-                </Link>
+                </button>
             </div>
             
              <div id="mainNavbar" className="navbar-menu">

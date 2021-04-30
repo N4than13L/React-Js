@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import Beach2 from '../Img/Beach2.jpg'
-import '../App.css'
+
 
 class Hero extends Component {
+    constructor(props){
+        super(props);
+        this.state = {value: 'Bienvenido'}
+    }
     render(){
         return(
-            <section className="hero is-large is-info">
-                <p className="title">Bienvenido</p>
+            <section>
                 <img src={Beach2} className="imgs"/>
+                <p className="title">{this.state.value}</p>
             </section>   
         )
     }
