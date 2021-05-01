@@ -12,7 +12,7 @@ import Software from '../components/Software';
 class Home extends Component{
     render(){
         return(
-            <div style={{margin: '0%',padding: '0%', width: '100%'}}>
+            <div style={{margin: '0%',padding: '0%', width: '100%'}} className="AplicacionColor">
                 <NavBar/>
                 <div style={{width:'100%'}}>
                     <Hero/>

@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import Beach2 from '../Img/Beach2.jpg'
-
 
 class Hero extends Component {
     constructor(props){
         super(props);
-        this.state = {value: 'Bienvenido'}
+        this.state = {value: 'Bienvenido a mi portafolio'}
     }
     render(){
         return(
             <section>
-                <img src={Beach2} className="imgs"/>
-                <p className="title">{this.state.value}</p>
+                { /**img src={Beach2} className="imgs">**/}
+                <p className="title" style={{padding: 40, margin: 20}}>{this.state.value}</p>
             </section>   
         )
     }

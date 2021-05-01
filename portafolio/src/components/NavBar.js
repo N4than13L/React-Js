@@ -12,9 +12,9 @@ class NavBar extends Component {
         return(
          <nav className="navbar is-fixed-top is-info" role="navigation" aria-label="main-navigation">
              <div className="navbar-brand">
-                <Link to="/" className="navbar-item">
+                {/* <Link to="/" className="navbar-item">
                    <FiHome style={{width: 45, height:50}}/>
-                </Link>
+                </Link> */}
 
                 <button role="button"
                  style={{background: 'transparent'}} 
@@ -29,7 +29,7 @@ class NavBar extends Component {
                  <div className="navbar-end">
                     <Link to="/" className="navbar-item " onClick={toggleBurgerMenu}>Sobre Mi</Link>
                     <Link to="/Coding" className="navbar-item " onClick={toggleBurgerMenu}>Proyectos de programacion</Link>
-                    <Link to="" className="navbar-item " onClick={toggleBurgerMenu}>Proyectos Artisticos</Link>
+                    <Link to="Art" className="navbar-item " onClick={toggleBurgerMenu}>Proyectos Artisticos</Link>
                  </div>
              </div>
              
