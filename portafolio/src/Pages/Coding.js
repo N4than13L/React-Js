@@ -4,6 +4,7 @@ import '../App.css';
 import 'bulma/css/bulma.css'
 import Coding_Proyects from '../components/Coding_Proyects';
 import Footer from '../components/Footer';
+import Coding_proyects from '../components/Coding_Proyects';
 
 class Coding extends Component {
     constructor(props){

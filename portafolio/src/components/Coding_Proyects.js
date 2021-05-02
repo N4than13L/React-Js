@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom';
 import DesktopPC from '../Img/DesktopPC.jpg'
 import Consola from '../Img/Consola.jpg';
 import PaginaWeb from '../Img/PaginaWeb.jpg'
+import Csharp_proyects from '../Pages/coding_proyects';
+import {BrowserRouter ,Switch, Route} from 'react-router-dom';
 
 class Coding_proyects extends Component {
     constructor(props){
@@ -20,7 +22,7 @@ class Coding_proyects extends Component {
                 <div className="box">
                     <p className="title">{this.state.value = 'Apps de escritorio'}</p>
                     <br/>
-                    <Link>
+                    <Link to="/Chsarp_proyects">
                         <img src={DesktopPC} style={{width: '85%'}}/>
                     </Link>
                     <p style={{fontSize: 25}}>{this.state.value = "Lenguaje: "}</p>
@@ -45,7 +47,7 @@ class Coding_proyects extends Component {
                     </Link>
                     <p style={{fontSize: 25}}>{this.state.value = "Lenguaje: "}</p>
                     <p style={{fontSize:20}}>JavaScript</p>
-                </div>               
+                </div>  
             </section>
         )
     }

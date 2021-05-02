@@ -13,11 +13,9 @@ class Home extends Component{
     render(){
         return(
             <div style={{margin: '0%',padding: '0%', width: '100%'}} className="AplicacionColor">
-                <NavBar/>
-                <div style={{width:'100%'}}>
-                    <Hero/>
-                </div>
-                
+                  <NavBar/>
+                  <div><Hero/></div>                  
+                  
                 <div style={{margin: '2%',padding: '2%', width: '95%'}}>
                     <Info/>
                     <Experience/>
@@ -25,7 +23,6 @@ class Home extends Component{
                     <Likes/>
                 </div>
                 <Footer/>
-                
             </div>
         )
     }

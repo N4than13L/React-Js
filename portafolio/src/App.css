@@ -1,36 +1,27 @@
-.App {
+
+
+.hero-image{
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  background: url(./Img/Beach2.jpg) center no-repeat;
+  background-size: cover;
+  /* filter: blur(1px); */
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
   text-align: center;
 }
-
-.imgs{
-  z-index: 0;
-  height: 30;
-  width: 100%;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+.container h1{
+  font-size:72;
+  letter-spacing: 0.2em;
 }
 
 .AplicacionColor{
@@ -41,11 +32,3 @@
   background-color: #4b4a4a;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

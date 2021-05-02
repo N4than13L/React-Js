@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import {BrowserRouter ,Switch, Route} from 'react-router-dom';
 import Coding from './Pages/Coding';
 import Art from './Pages/Art';
+import Csharp_proyects from './Pages/coding_proyects';
 
 class App extends Component {
   render(){
@@ -15,6 +16,7 @@ class App extends Component {
           <Route path='/' exact component={Home} />
           <Route path='/Coding' exact component={Coding}/>
           <Route path='/Art' exact component={Art} />
+          <Route path='/Chsarp_proyects' exact component={Csharp_proyects} />
         </Switch>
       </BrowserRouter>
       </div>

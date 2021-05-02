@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import '../App.css'
 class Hero extends Component {
     constructor(props){
         super(props);
@@ -7,10 +8,13 @@ class Hero extends Component {
     }
     render(){
         return(
-            <section>
-                { /**img src={Beach2} className="imgs">**/}
-                <p className="title" style={{padding: 40, margin: 20}}>{this.state.value}</p>
-            </section>   
+            <div className="hero-image">
+                <div className='container'>
+                    <h1>José Nathaniel Bonilla</h1>
+                    <p>Artista y Programador</p>
+                </div>
+                
+            </div>   
         )
     }
 }

@@ -12,9 +12,9 @@ class NavBar extends Component {
         return(
          <nav className="navbar is-fixed-top is-info" role="navigation" aria-label="main-navigation">
              <div className="navbar-brand">
-                {/* <Link to="/" className="navbar-item">
+                <Link to="/" className="navbar-item">
                    <FiHome style={{width: 45, height:50}}/>
-                </Link> */}
+                </Link>
 
                 <button role="button"
                  style={{background: 'transparent'}} 
