@@ -12,6 +12,7 @@ class Hero extends Component {
                 <div className='container'>
                     <h1>José Nathaniel Bonilla</h1>
                     <p>Artista y Programador</p>
+                    <p>"La determinacion vale más que la inteligencia."</p>
                 </div>
                 
             </div>   

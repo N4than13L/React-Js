@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 class Button_Back extends Component {
     render() {
         return(
-            <div style={{padding: 20}}>  
+            <div style={{padding: 5, padding: 20}}>  
                 <Link to="/Coding" className="button is-info">
                     <BiArrowBack/>
                 </Link>
@@ -13,5 +13,6 @@ class Button_Back extends Component {
         )
     }
 }
+
 
 export default Button_Back

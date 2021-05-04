@@ -1,13 +1,28 @@
 import React,{Component} from 'react';
-import { FiInstagram, FiYoutube } from 'react-icons/fi';
 import '../App.css'
 
 class Footer extends Component {
     render(){
         return (
-            <footer className="footer" style={{backgroundColor: '#4b4a4a'}}>
-                <div style={{padding:2, margin:2, fontColor: 'white'}}>
-                  
+            <footer className="FooterColor" >
+                <div className="FooterColor">
+                    <strong className="color">
+                        proyectos realizados con las librerias/frameworks
+                    </strong>
+                    
+                    <p className="color">
+                            React Js
+                    </p>
+                    <p className="color">
+                        React icons
+                    </p>
+                    <p className="color">
+                        React Router
+                    </p>
+                    <p className="color">
+                        React Swiper
+                    </p>
+
                 </div>
             </footer>
         )

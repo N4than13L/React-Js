@@ -5,19 +5,22 @@ import 'bulma/css/bulma.css'
 import Coding_Proyects from '../components/Coding_Proyects';
 import Footer from '../components/Footer';
 import Coding_proyects from '../components/Coding_Proyects';
+import Button_Back from '../components/Button_Back';
 
 class Coding extends Component {
     constructor(props){
         super(props);
         this.state = {
-            value: 'En este apartado se presentaran todos mis proyectos de programación en distintos lenguajes y tecnologias'}
+            value: 'En este apartado se presentaran todos mis proyectos de programación en distintos lenguajes y tecnologias. \n cuyos proyectos en su mayoria son proyectos personales.'}
     }
 
     render() {
         return(
             <div className="AplicacionColor">
                 <NavBar/>
-                <p style={{margin:35, padding: 30}}>{this.state.value}</p>
+                <br/>
+                <br/>
+                <p style={{margin:30, padding: 10}}>{this.state.value}</p>
                 <Coding_Proyects/>
                 <Footer/>
             </div>

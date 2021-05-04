@@ -43,9 +43,23 @@ body {
 }
 
 .FooterColor{
-  background-color: #4b4a4a;
+  background-color: #383838;
+  width: 100%;
+  height: 200px;  
+}
+.color{
+  color: white;
+  position: center;
+}
+.FooterColor-child{ 
+  text-align: center;
+  position: center;
+  
 }
 
+.FooterColor .FooterColor-child{
+  position: center;
+} 
 .swiper-container {
   width: 100%;
   height: 100%;
