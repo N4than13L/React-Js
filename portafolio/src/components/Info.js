@@ -20,10 +20,9 @@ class Info extends Component{
                     <div className="content">
                         <p>
                             <strong>José Nathaniel Bonilla</strong></p>
-                            <a href="https://www.artstation.com/bonillaartworks"target="Blank">Bonilla ArtWorks</a>
-                            <a href="#" target="Blank"> @bonillajosenathaniels</a>
-                            <br/>
-                            <a href="#" target="Blank"> Bonilla ArtWorks</a> 
+                            <p>ArtStation: <a href="https://www.artstation.com/bonillaartworks"target="Blank">Bonilla ArtWorks</a></p>
+                            <p>Instagram: <a href="https://www.instagram.com/bonillajosenathaniel/" target="Blank"> @bonillajosenathaniel</a></p>
+                            <p>Youtube: <a href="https://www.youtube.com/channel/UCkgmFcCfaFTfKpGT8qXQdWg" target="Blank"> Bonilla ArtWorks</a></p> 
                         <p>{this.state.Historia}</p>
                          
                     </div>

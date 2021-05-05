@@ -7,6 +7,7 @@ class Footer extends Component {
             <footer className="FooterColor" >
                 <div className="FooterColor">
                     <strong className="color">
+                        <br/>
                         proyectos realizados con las librerias/frameworks
                     </strong>
                     

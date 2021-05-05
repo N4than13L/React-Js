@@ -2,8 +2,9 @@
 #root { height: 100% }
 html,
 body {
-  position: relative;
+  position: center;
   height: 100%;
+  text-align: center;
 }
 
 body {
