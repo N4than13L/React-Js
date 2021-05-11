@@ -32,7 +32,7 @@ class Coding_proyects extends Component {
                     <br/>
                         <img src={Consola} style={{width: '85%'}}/>
                         <br/>
-                        <Link to="" className="button is-info">ver proyectos</Link>
+                        <Link to="/Python_proyects" className="button is-info">ver proyectos</Link>
                     <p style={{fontSize: 25}}>{this.state.value = "Lenguaje: "}</p>
                     <p style={{fontSize:20}}>Python</p>
                 </div>
