@@ -3,6 +3,13 @@ import Button_Back from '../components/Button_Back';
 import NavBar from '../components/NavBar';
 import '../App.css'
 
+import Python_downloader from '../Img/Python_downloader.jpg'
+import Python_downloader2 from '../Img/Python_downloader2.jpg'
+import Python_downloader3 from '../Img/Python_downloader3.jpg'
+
+import Calculadora_py1 from '../Img/Calculadora_py1.jpg'
+import Calculadora_py2 from '../Img/Calculadora_py2.jpg'
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -22,8 +29,6 @@ import Footer from '../components/Footer'
 // install Swiper modules
 SwiperCore.use([Navigation]);
 
-// import Python_downloader from '../Img/Python_downloader.jpg'
-
 class Python_proyects extends Component {
     constructor(props){
         super(props);
@@ -31,44 +36,39 @@ class Python_proyects extends Component {
     }
     render(){
         return (
-            <section>
+            <section className="AplicacionColor">
                 <NavBar/>
                 <div className="Buttonsback">
                     <Button_Back/>
                 </div>
-                <section style={{margin: 5, padding: 10, width: '95%'}}>
+                {/*---------------------------------- Python Downloader ------------------------------------------*/}
+                <section style={{margin: 5, padding: 10, width: '98%'}}>
                 <div className="box">
                 <Swiper navigation={true} className="mySwiper">
-                    {/* <SwiperSlide><img src={Python_downloader}/></SwiperSlide> */}
-                    <SwiperSlide>Slider</SwiperSlide>
-                    <SwiperSlide>Slider</SwiperSlide>
-                    <SwiperSlide>Slider</SwiperSlide>
-                    <SwiperSlide>Slider</SwiperSlide>
-                    <SwiperSlide>Slider</SwiperSlide>
+                    <SwiperSlide><img src={Python_downloader}/></SwiperSlide>
+                    <SwiperSlide><img src={Python_downloader2}/></SwiperSlide>
+                    <SwiperSlide><img src={Python_downloader3}/></SwiperSlide>
                 </Swiper>
-                <p className="title">{this.state.value = 'Descripcion del proyecto:'}</p>
+                <p className="title">{this.setState.value = 'Descripcion del proyecto:'}</p>
                 <p>{
-                this.setState.value = ''}</p>
+                this.setState.value = 'Script para descargar video e audios.'}</p>
                  <p>{
-                this.setState.value = 'Este proyecto consta en una aplicacion con base de datos en MySQL Server. Anexado a esto el proyecto tiene el patron de diseño de 3 capas.'}</p>
-                <p>Codigo en: <a href="https://github.com/N4than13L/Csharp-proyects/tree/master/Estudiantes"  target="Blank">Mi cuenta de github.</a></p>
+                this.setState.value = 'Este proyecto consta en un Script en python para poder descargar videos desde youtube usando la libreria de pytube.'}</p>
+                <p>Codigo en: <a href="https://github.com/N4than13L/Python-Proyects/tree/master/python%20downloader"  target="Blank">Mi cuenta de github.</a></p>
                 </div>
+
                 {/*-----------------------------------------------------------*/}
                 <div className="box">
                 <Swiper navigation={true} className="mySwiper">
-                    <SwiperSlide>Slider</SwiperSlide>
-                    <SwiperSlide>Slider</SwiperSlide>
-                    <SwiperSlide>Slider</SwiperSlide>
-                    <SwiperSlide>Slider</SwiperSlide>
-                    <SwiperSlide>Slider</SwiperSlide>
-                    <SwiperSlide>Slider</SwiperSlide>
+                    <SwiperSlide><img src={Calculadora_py1}/></SwiperSlide>
+                    <SwiperSlide><img src={Calculadora_py2}/></SwiperSlide>                    
                 </Swiper>
                 <p className="title">{this.state.value = 'Descripcion del proyecto:'}</p>
                 <p>{
                 this.setState.value = 'Este proyecto es un CRUD creado en un curso de C# con .NET Core que realizé hace unos meses.'}</p>
                  <p>{
-                this.state.value = 'Este proyecto consta en una aplicacion con base de datos en MySQL Server. Anexado a esto el proyecto tiene el patron de diseño de 3 capas.'}</p>
-                <p>Codigo en: <a href="https://github.com/N4than13L/Csharp-proyects/tree/master/Estudiantes"  target="Blank">Mi cuenta de github.</a></p>
+                this.setState.value = 'Este proyecto consta en una calculadora aritmetica'}</p>
+                <p>Codigo en: <a href="https://github.com/N4than13L/Python-Proyects/tree/master/Calculadora"  target="Blank">Mi cuenta de github.</a></p>
                 </div>
                 
                 </section>
