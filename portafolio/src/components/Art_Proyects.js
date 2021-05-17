@@ -4,6 +4,7 @@ import Render from '../Img/Render.jpg';
 import Draw from '../Img/Draw.jpg';
 import Isla_Academica from '../Img/Isla_Academica.jpg';
 import '../App.css'
+import Button_Back from './Button_Back';
 
 class Art_Proyects extends Component {
     constructor(props){
@@ -15,7 +16,10 @@ class Art_Proyects extends Component {
             <section>
                 {/*cosas renderizadas */}
                 <br/>
-                <div className="box" style={{margin:30}}>
+                <br/>
+                <br/>
+                <Button_Back/>
+                <div className="box" style={{margin:30, padding:30}}>
                     <p className="title">{this.state.value = 'Renders 3D'}</p>
                     <br/>
                     <Link>

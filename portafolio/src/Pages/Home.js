@@ -8,6 +8,7 @@ import Experience from '../components/Exprience';
 import Footer from '../components/Footer';
 import Likes from '../components/Likes';
 import Software from '../components/Software';
+import Art_Knowlege from '../components/Art_Knowlege';
 
 class Home extends Component{
     render(){
@@ -19,6 +20,7 @@ class Home extends Component{
                 <div style={{margin: '2%',padding: '2%', width: '95%'}}>
                     <Info/>
                     <Experience/>
+                    <Art_Knowlege/>
                     <Software/>
                     <Likes/>
                 </div>

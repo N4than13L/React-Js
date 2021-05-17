@@ -34,12 +34,6 @@ class Experience extends Component {
                 <p>MySQL</p>
                 <p>Nivel de experiencia:</p>
                 <progress class="progress" style={{background: 'purple'}} value="45" max="100">40%</progress>
-                <br/>
-
-                <h1 className="title">Conocimentos en Arte diginal</h1>
-                <p>Mattepainting y photoretoque</p>
-                <p>render en 3d</p>
-                <p>Dibujo tradicional/digital</p>
             </div>
         );
     }
