@@ -4,6 +4,7 @@ import '../App.css';
 import 'bulma/css/bulma.css'
 import Coding_Proyects from '../components/Coding_Proyects';
 import Footer from '../components/Footer';
+import Button_Back2 from '../components/Button_Back2';
 
 class Coding extends Component {
     constructor(props){
@@ -18,6 +19,8 @@ class Coding extends Component {
                 <NavBar/>
                 <br/>
                 <br/>
+                <br/>
+                <Button_Back2/>
                 <p style={{margin:30, padding: 10}}>{this.state.value}</p>
                 <Coding_Proyects/>
                 <Footer/>

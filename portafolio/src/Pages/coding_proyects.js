@@ -46,9 +46,11 @@ class Csharp_proyects extends Component {
                 <section className="AplicacionColor"
                 style={{margin: 5, padding: 10, width: '98%'}}>
                 <NavBar/>
-                <div style={{margin: 69}}></div>
+                <br/>
+                <br/>
                 <Button_Back/>
-
+                <p>{this.setState.value = "aqui se encuentran los proyects creados tanto en cursos como por mi cuenta con dicha tecnologia."}</p>
+                <br/>
                 {/* proyecto de aplicacion de alumnos */}
                 <div className="box">
                 <Swiper navigation={true} className="mySwiper">
