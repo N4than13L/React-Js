@@ -9,21 +9,21 @@ class Software extends Component {
     render(){
         return (
             <div className="box">
-                <p className="title"> Programas y aplicaciones del dia a dia </p>
+                <p className="title"> Programas y aplicaciones del dia a dia.</p>
                 <SiAdobephotoshop/>
-                <p>Photoshop</p>
+                <p>Photoshop.</p>
                 <DiVisualstudio/>
-                <p>visual Studio Code</p>
+                <p>visual Studio Code.</p>
                 <SiBlender/>
-                <p>Blender</p>
+                <p>Blender.</p>
                 <GrMysql/>
-                <p>MySQL Workbench</p>
+                <p>MySQL Workbench.</p>
                 <DiVisualstudio/>
-                <p>Visual Studio IDE</p>
+                <p>Visual Studio IDE.</p>
                 <GoPencil/>
-                <p>Adobe Fresco</p>
+                <p>Adobe Fresco.</p>
                 <BsCameraVideo/>
-                <p>Davinci resolve</p>
+                <p>Davinci resolve.</p>
             </div>
             )
         }

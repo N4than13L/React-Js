@@ -18,6 +18,7 @@ class App extends Component {
       <div className="App">
         <BrowserRouter>
         <Switch>
+          {/*Paginas principales*/}
           <Route path='/' exact component={Home} />
           <Route path='/Coding' exact component={Coding}/>
           <Route path='/Art' exact component={Art} />

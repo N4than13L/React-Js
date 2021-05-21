@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { IoCarSportOutline } from "react-icons/io5";
 import {GiCheckeredFlag} from 'react-icons/gi'
 import { FaChess } from "react-icons/fa";
-// import {SiJavascript} from 'react-icons/si'
 import {MdKitchen} from 'react-icons/md';
 import {IoIosLaptop} from 'react-icons/io';
 import {AiFillFolderOpen} from 'react-icons/ai';
@@ -16,23 +15,23 @@ class Likes extends Component {
                 <GiCheckeredFlag/>
                 <IoCarSportOutline/>
                 <p>
-                    Carreras de cohes y motos
+                    Carreras de cohes y motos.
                 </p>
                   <FaChess/>  
                 <p>
-                    El ajedrez
+                    El ajedrez.
                 </p>
                 <AiFillFolderOpen/>
                 <p>
-                    El origami
+                    El origami.
                 </p>
                 <MdKitchen/>
                 <p>
-                    La cocina    
+                    La cocina.    
                 </p>
                 <IoIosLaptop/>
                 <p>
-                    El Hardware de PC
+                    El Hardware de PC.
                 </p>
                 </div>
             </div>
