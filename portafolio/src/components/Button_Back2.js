@@ -5,7 +5,7 @@ import { BiArrowBack } from 'react-icons/bi'
 export default class Button_Back2 extends Component{
     render() {
         return(
-            <Link to="/" className="button is-info">
+            <Link to="/" className="button is-warning">
                 <BiArrowBack/>
             </Link>
         );

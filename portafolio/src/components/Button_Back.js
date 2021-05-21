@@ -6,7 +6,7 @@ class Button_Back extends Component {
     render() {
         return(
             <div style={{padding: 5, padding: 20}}>  
-                <Link to="/Coding" className="button is-info">
+                <Link to="/Coding" className="button is-danger">
                     <BiArrowBack/>
                 </Link>
             </div>

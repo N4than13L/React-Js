@@ -10,6 +10,7 @@ import Python_proyects from './Pages/Python_proyects';
 import Renders from './Pages/Render';
 import Photomontajes from './Pages/Photomontajes';
 import Drawings from './Pages/Drawings';
+import Paginas_Web from './Pages/paginas_Web';
 
 class App extends Component {
   render(){
@@ -26,6 +27,7 @@ class App extends Component {
           <Route path='/Renders' exact component={Renders} />
           <Route path='/Photomontajes' exact component={Photomontajes} />
           <Route path='/Drawings' exact component={Drawings} />
+          <Route path='/Paginas_Web' exact component={Paginas_Web} />
         </Switch>
       </BrowserRouter>
       </div>

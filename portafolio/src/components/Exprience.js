@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import {SiJavascript, SiPython, SiCsharp} from 'react-icons/si';
+import {SiJavascript, SiPython, SiCsharp, SiMicrosoftoffice} from 'react-icons/si';
 import {AiFillHtml5} from 'react-icons/ai';
 import {DiCss3Full, DiMysql} from 'react-icons/di';
+import {BsCameraVideo} from 'react-icons/bs'
 
 class Experience extends Component {
     render(){
@@ -10,6 +11,7 @@ class Experience extends Component {
                 <h1 className="title">
                     Conocimentos Tecnicos en informatica
                 </h1>
+                <SiMicrosoftoffice/>
                 <p>Manejo de programas de Ofimatica</p>
                 <p>Nivel de experiencia:</p>
                 <progress className="progress is-dark" value="70" max="100">40</progress>

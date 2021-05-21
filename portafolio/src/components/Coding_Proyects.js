@@ -15,10 +15,10 @@ class Coding_proyects extends Component {
             <section style={{margin: '2%',padding: '2%', width: '95%'}}>
                 <br/>
                 {/*Aplicaciones de escritorio*/}
-                <p>{this.state.value = 'proyectos de programacion'}</p>
+                <p>{this.setState.value = ''}</p>
                 
                 <div className="box">
-                    <p className="title">{this.state.value = 'Apps de escritorio'}</p>
+                    <p className="title">{this.setState.value = 'Apps de escritorio'}</p>
                     <br/>
                         <img src={DesktopPC} style={{width: '85%'}}/>
                         <br/>
@@ -28,22 +28,22 @@ class Coding_proyects extends Component {
                 </div>
                 {/*Aplicaciones de terminal con python */} 
                 <div className="box">
-                    <p className="title">{this.state.value = 'Applicaciones de Terminal'}</p>
+                    <p className="title">{this.setState.value = 'Applicaciones de Terminal'}</p>
                     <br/>
                         <img src={Consola} style={{width: '85%'}}/>
                         <br/>
                         <Link to="/Python_proyects" className="button is-info">ver proyectos</Link>
-                    <p style={{fontSize: 25}}>{this.state.value = "Lenguaje: "}</p>
+                    <p style={{fontSize: 25}}>{this.setState.value = "Lenguaje: "}</p>
                     <p style={{fontSize:20}}>Python</p>
                 </div>
                 {/*Aplicaciones de terminal con python */}
                 <div className="box">
-                    <p className="title">{this.state.value = 'Aplicaciones Web'}</p>
+                    <p className="title">{this.setState.value = 'Aplicaciones Web'}</p>
                     <br/>
                         <img src={PaginaWeb} style={{width: '85%'}}/>
                         <br/>
-                        <Link to="" className="button is-info">ver proyectos</Link>
-                    <p style={{fontSize: 25}}>{this.state.value = "Lenguaje: "}</p>
+                        <Link to="/Paginas_Web" className="button is-info">ver proyectos</Link>
+                    <p style={{fontSize: 25}}>{this.setState.value = "Lenguaje: "}</p>
                     <p style={{fontSize:20}}>JavaScript</p>
                 </div>  
             </section>

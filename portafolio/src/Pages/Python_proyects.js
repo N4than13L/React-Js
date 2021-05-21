@@ -41,6 +41,8 @@ class Python_proyects extends Component {
                 <div className="Buttonsback">
                     <Button_Back/>
                 </div>
+                
+                <p>{this.setState.value = 'En este apartado se encuentran proyectos en python totalmente creados para ejecutarse en la terminal de comandos.'}</p>
                 {/*---------------------------------- Python Downloader ------------------------------------------*/}
                 <section style={{margin: 5, padding: 10, width: '98%'}}>
                 <div className="box">
