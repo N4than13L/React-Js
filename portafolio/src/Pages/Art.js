@@ -13,6 +13,7 @@ class Art extends Component {
                 <br/>
                 <br/>
                 <br/>
+                <br/>
                 <Button_Back2/>
                 <Art_Proyects/>
                 <Footer/>

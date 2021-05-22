@@ -4,7 +4,7 @@ class Info extends Component{
     constructor(props){
         super(props);
         this.state = {
-            Historia:'Es un Estudiante universitario, Artista grafico autodidacta, programador web Font-end con React js, y desarollador de App de escritorio con C#. Nacido en República Dominicana'}
+            Historia:'Es un Estudiante universitario, Artista grafico, dibujante, programador web Font-end, y desarollador de App de escritorio y Backend. Nacido en Valverde Mao, República Dominicana'}
         }
             render(){
         return (

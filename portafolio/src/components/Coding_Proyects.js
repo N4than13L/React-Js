@@ -12,7 +12,7 @@ class Coding_proyects extends Component {
 
     render(){
         return(
-            <section style={{margin: '2%',padding: '2%', width: '95%'}}>
+            <section className="AplicacionColor" style={{margin: '2%',padding: '2%', width: '95%'}}>
                 <br/>
                 {/*Aplicaciones de escritorio*/}
                 <p>{this.setState.value = ''}</p>

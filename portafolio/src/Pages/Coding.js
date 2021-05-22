@@ -20,8 +20,9 @@ class Coding extends Component {
                 <br/>
                 <br/>
                 <br/>
+                <br/>
                 <Button_Back2/>
-                <p style={{margin:30, padding: 10}}>{this.state.value}</p>
+                <p>{this.state.value}</p>
                 <Coding_Proyects/>
                 <Footer/>
             </div>

@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import Likes from '../components/Likes';
 import Software from '../components/Software';
 import Art_Knowlege from '../components/Art_Knowlege';
+import Chain from '../video/Chain.mp4';
 
 class Home extends Component{
     render(){
@@ -16,7 +17,6 @@ class Home extends Component{
             <div style={{margin: '0%',padding: '0%', width: '100%'}} className="AplicacionColor">
                   <NavBar/>
                   <div><Hero/></div>                  
-                  
                 <div style={{margin: '2%',padding: '2%', width: '95%'}}>
                     <Info/>
                     <Experience/>
@@ -24,7 +24,19 @@ class Home extends Component{
                     <Software/>
                     <Likes/>
                 </div>
+                {/*para colocar un video de fondo para cuando sea nescesario y pertinente hacerlo*/}
+                {/* <video src={Chain} type='video/mp4'
+                autoPlay loop muted style={{position: 'absolute',
+                    width: '100%',
+                    left: '50%',
+                    top: '50%',
+                    height: '50%',
+                    objectFit: 'cover',
+                    transform: 'translate(-50%, -50%)'
+                }}/>
+                 */}
                 <Footer/>
+                
             </div>
         )
     }

@@ -42,9 +42,8 @@ class Csharp_proyects extends Component {
     }
     render(){
         return (
-            <section >
-                <section className="AplicacionColor"
-                style={{margin: 5, padding: 10, width: '98%'}}>
+            <section className="AplicacionColor">
+                <section style={{margin: 10, padding: 10, width: '95%'}}>
                 <NavBar/>
                 <br/>
                 <br/>
