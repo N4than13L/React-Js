@@ -17,7 +17,7 @@ class Home extends Component{
             <div style={{margin: '0%',padding: '0%', width: '100%'}} className="AplicacionColor">
                   <NavBar/>
                   <div><Hero/></div>                  
-                <div style={{margin: '2%',padding: '2%', width: '95%'}}>
+                <div className="Organizer">
                     <Info/>
                     <Experience/>
                     <Art_Knowlege/>

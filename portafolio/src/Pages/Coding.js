@@ -17,10 +17,6 @@ class Coding extends Component {
         return(
             <div className="AplicacionColor">
                 <NavBar/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <Button_Back2/>
                 <p>{this.state.value}</p>
                 <Coding_Proyects/>

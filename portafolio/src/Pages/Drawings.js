@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Button_Back3 from '../components/Button_Back3';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
+import '../App.css';
 
 class Drawings extends Component {
     constructor(props){
@@ -12,16 +13,10 @@ class Drawings extends Component {
         return(
             <section className="AplicacionColor">
                 <NavBar/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <Button_Back3/>
-                <br/>
-                <br/>
                 <p>{this.setState.value = 'En este sitio vas a encontrar todos mis dibujos creados en formato tradicional. tanto de cuadernos de dibujo como en papel fabriano de dibujo.'}</p>
                 
-                <section style={{margin: 20, padding:20, width:'90%'}}>
+                <section className="Organizer">
                 <div className="box">
                     <img alt="imagen1" className=""/>
                     <p>{this.setState.value = 'Photo1'}</p>

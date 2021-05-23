@@ -39,18 +39,17 @@ class Csharp_proyects extends Component {
     constructor(props){
         super(props);
         this.state = {value: ''}
+        //style={{margin:30, padding:30}}
     }
     render(){
         return (
             <section className="AplicacionColor">
-                <section style={{margin: 10, padding: 10, width: '95%'}}>
+                <section>
                 <NavBar/>
-                <br/>
-                <br/>
                 <Button_Back/>
                 <p>{this.setState.value = "aqui se encuentran los proyects creados tanto en cursos como por mi cuenta con dicha tecnologia."}</p>
-                <br/>
-                {/* proyecto de aplicacion de alumnos */}
+                <section className="Organizer">
+                    {/* proyecto de aplicacion de alumnos */}
                 <div className="box">
                 <Swiper navigation={true} className="mySwiper">
                     <SwiperSlide><img src={Estudiantes}/></SwiperSlide>
@@ -94,6 +93,8 @@ class Csharp_proyects extends Component {
                 this.state.value = 'En este proyecto he creado una app para convertir unidades. Utilizando varios formularios como se aprecian en las imagenes.'}</p>
                 <p>Codigo en: <a href="https://github.com/N4than13L/Csharp-proyects/tree/master/Convertidor%20de%20unidades" target="Blank">Mi cuenta de github.</a></p>
                 </div>
+                </section>
+                
                 </section>
                 <Footer/>
             </section>

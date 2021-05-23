@@ -2,6 +2,7 @@
 #root { height: 100% }
 html,
 body {
+  top: 0;
   position: center;
   height: 100%;
   text-align: center;
@@ -39,6 +40,14 @@ body {
   letter-spacing: 0.2em;
 }
 
+.Organizer{
+  margin: 20px;
+  padding: 20px;
+  width: 95%;
+  display: block; 
+  transform: translate(.25%, -.10%);
+}
+
 .AplicacionColor{
   background-color: #dcdfe4;
 }
@@ -59,7 +68,9 @@ body {
 }
 
 .Buttonsback{
-  margin: 60px;
+  margin: 40px;
+  padding-top: 40px;
+  padding-bottom: 5px;
 }
 
 .FooterColor .FooterColor-child{

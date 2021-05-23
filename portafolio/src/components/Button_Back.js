@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 class Button_Back extends Component {
     render() {
         return(
-            <div style={{padding: 5, padding: 20}}>  
+            <div className="Buttonsback">  
                 <Link to="/Coding" className="button is-danger">
                     <BiArrowBack/>
                 </Link>

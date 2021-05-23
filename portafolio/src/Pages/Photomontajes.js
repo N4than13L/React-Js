@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import Button_Back3 from '../components/Button_Back3';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
+import '../App.css';
 
 class Photomontajes extends Component {
     constructor(props){
@@ -12,16 +13,10 @@ class Photomontajes extends Component {
         return(
             <section className="AplicacionColor">
                 <NavBar/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <Button_Back3/>
-                <br/>
-                <br/>
                 <p>{this.setState.value = 'En este apartado se mostraran los proyectos de photomanipulacion en diferentes tecnicas de edicion. Pasando tanto por el mattepainting y la tecnica del photobashing.'}</p>
                 <br/>
-                <section style={{margin: 20, padding:20, width:'90%'}}>
+                <section className="Organizer">
                 <div className="box">
                     <img alt="imagen1" className=""/>
                     <p>{this.setState.value = 'Photo1'}</p>

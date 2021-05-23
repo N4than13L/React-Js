@@ -18,7 +18,9 @@ class Art_Proyects extends Component {
                 <div>
                     <p>{this.setState.value= "En este apartado estan todos mis proyectos de arte tanto de digital como renders con blender, photomontajes en photoshop y mis dibujos del tradicional."} </p>
                 </div>
-                <div className="box" style={{margin:30, padding:30}}>
+
+                <section className="Organizer">
+                <div className="box">
                     <p className="title">{this.setState.value = 'Renders 3D'}</p>
                     <br/>
                         <img src={Render} style={{width: '85%'}}/>
@@ -27,7 +29,7 @@ class Art_Proyects extends Component {
                     <Link to="/Renders" className="button is-info">Ver proyectos</Link>
                 </div>
                 {/*Photomanipulacion*/}
-                <div className="box" style={{margin:30}}>
+                <div className="box">
                     <p className="title">{this.state.value = 'Photomanipulacion'}</p>
                     <br/>
                     <img src={Isla_Academica} style={{width: '85%'}}/>
@@ -36,16 +38,15 @@ class Art_Proyects extends Component {
                     <Link to="/Photomontajes" className="button is-info">Ver proyectos</Link>
                 </div>
                 {/*dibujos tradicionales*/}
-                <div className="box" style={{margin:30}}>
+                <div className="box">
                     <p className="title">{this.state.value = 'Dibujos tradicionales'}</p>
                     <br/>
-                        <img src={Draw} style={{width: '85%'}}/>
+                        <img src={Draw}/>
                     <p style={{fontSize: 25}}>{this.state.value = "Programa: "}</p>
                     <p style={{fontSize:20}}>N/A</p>
                     <Link to="/Drawings" className="button is-info">Ver proyectos</Link>
                 </div>
-
-                
+                </section>  
             </section>
         )
     }

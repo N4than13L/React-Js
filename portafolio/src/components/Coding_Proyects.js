@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import DesktopPC from '../Img/DesktopPC.jpg'
 import Consola from '../Img/Consola.jpg';
-import PaginaWeb from '../Img/PaginaWeb.jpg'
+import PaginaWeb from '../Img/PaginaWeb.jpg';
+import '../App.css';
 
 class Coding_proyects extends Component {
     constructor(props){
@@ -12,11 +13,12 @@ class Coding_proyects extends Component {
 
     render(){
         return(
-            <section className="AplicacionColor" style={{margin: '2%',padding: '2%', width: '95%'}}>
+            <section className="AplicacionColor"style={{margin: '2%',padding: '2%', width: '95%'}}>
                 <br/>
                 {/*Aplicaciones de escritorio*/}
                 <p>{this.setState.value = ''}</p>
                 
+                <section className="Organizer">
                 <div className="box">
                     <p className="title">{this.setState.value = 'Apps de escritorio'}</p>
                     <br/>
@@ -45,7 +47,9 @@ class Coding_proyects extends Component {
                         <Link to="/Paginas_Web" className="button is-info">ver proyectos</Link>
                     <p style={{fontSize: 25}}>{this.setState.value = "Lenguaje: "}</p>
                     <p style={{fontSize:20}}>JavaScript</p>
-                </div>  
+                </div>
+                </section>
+                 
             </section>
         )
     }

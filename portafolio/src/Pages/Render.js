@@ -13,16 +13,10 @@ class Renders extends Component {
         return (
             <section className="AplicacionColor">
                 <NavBar/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <Button_Back3/>
-                <br/>
-                <br/>
                 <p>{this.setState.value = 'En este aparado veras mis proyectos de render unsando el programa de blender'}</p>
                 
-                <section style={{margin: 20, padding:20, width:'90%'}}>
+                <section className="Organizer">
                 <div className="box">
                     <img alt="imagen1" className=""/>
                     <p>{this.setState.value = 'Photo1'}</p>
@@ -73,7 +67,6 @@ class Renders extends Component {
                     <p>{this.setState.value = 'Photo10'}</p>
                 </div>
                 </section>
-            
                 <Footer/>
             </section>
         )

@@ -10,10 +10,6 @@ class Art extends Component {
         return (
             <section className="AplicacionColor">
                 <NavBar/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <Button_Back2/>
                 <Art_Proyects/>
                 <Footer/>
